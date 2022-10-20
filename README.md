@@ -1,6 +1,11 @@
-# vhembe-district-municipality
-Department: Tourism and Hospitality Management
-Module title: Development of Tourism 
-Module code: TMA 1241
-Student names: Unathi Lukhele 
-Student NO. : 22006019
+- name: Cache
+  uses: actions/cache@v3.0.11
+  with:
+    # A list of files, directories, and wildcard patterns to cache and restore
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case.
+    restore-keys: # optional
+    # The chunk size used to split up large files during upload, in bytes
+    upload-chunk-size: # optional
