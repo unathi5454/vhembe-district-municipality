@@ -9,3 +9,4 @@
     restore-keys: # optional
     # The chunk size used to split up large files during upload, in bytes
     upload-chunk-size: # optional
+theme:  minimal-mistakes
